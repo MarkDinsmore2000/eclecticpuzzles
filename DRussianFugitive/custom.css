@@ -282,7 +282,7 @@ h6{
     width: 150px;
 }
 
-@media (min-width: 1650px) {
+@media (min-width: 1450px) {
     #news {
         position: absolute;
         display:block;
