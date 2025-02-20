@@ -1,4 +1,532 @@
-@media (min-width: 1350px) {
+
+@media (min-width: 1750px) {
+    #zero {
+        position: absolute;
+        display:block;
+        top: 230px;
+        left: 865px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #one {
+        position: absolute;
+        display:block;
+        top: 230px;
+        left: 915px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #two {
+        position: absolute;
+        display:block;
+        top: 230px;
+        left: 965px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #three {
+        position: absolute;
+        display:block;
+        top: 280px;
+        left: 865px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #four {
+        position: absolute;
+        display:block;
+        top: 280px;
+        left: 915px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #five {
+        position: absolute;
+        display:block;
+        top: 280px;
+        left: 965px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #six {
+        position: absolute;
+        display:block;
+        top: 330px;
+        left: 865px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #seven {
+        position: absolute;
+        display:block;
+        top: 330px;
+        left: 915px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #eight {
+        position: absolute;
+        display:block;
+        top: 330px;
+        left: 965px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #righttop {
+        position: absolute;
+        display:block;
+        top: 240px;
+        left: 1030px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #rightmid {
+        position: absolute;
+        display:block;
+        top: 290px;
+        left: 1030px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #rightbottom {
+        position: absolute;
+        display:block;
+        top: 340px;
+        left: 1030px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #downright {
+        position: absolute;
+        display:block;
+        top: 400px;
+        left: 968px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #downmid {
+        position: absolute;
+        display:block;
+        top: 400px;
+        left: 918px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #downleft {
+        position: absolute;
+        display:block;
+        top: 400px;
+        left: 868px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #leftbottom {
+        position: absolute;
+        display:block;
+        top: 340px;
+        left: 790px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #leftmid {
+        position: absolute;
+        display:block;
+        top: 290px;
+        left: 790px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #lefttop {
+        position: absolute;
+        display:block;
+        top: 240px;
+        left: 790px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #upleft {
+        position: absolute;
+        display:block;
+        top: 182px;
+        left: 868px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #upmid {
+        position: absolute;
+        display:block;
+        top: 182px;
+        left: 918px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #upright {
+        position: absolute;
+        display:block;
+        top: 182px;
+        left: 968px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    }
+@media (max-width: 1750px) {
+    #zero {
+        position: absolute;
+        display:block;
+        top: 230px;
+        left: 765px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #one {
+        position: absolute;
+        display:block;
+        top: 230px;
+        left: 815px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #two {
+        position: absolute;
+        display:block;
+        top: 230px;
+        left: 865px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #three {
+        position: absolute;
+        display:block;
+        top: 280px;
+        left: 765px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #four {
+        position: absolute;
+        display:block;
+        top: 280px;
+        left: 815px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #five {
+        position: absolute;
+        display:block;
+        top: 280px;
+        left: 865px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #six {
+        position: absolute;
+        display:block;
+        top: 330px;
+        left: 765px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #seven {
+        position: absolute;
+        display:block;
+        top: 330px;
+        left: 815px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #eight {
+        position: absolute;
+        display:block;
+        top: 330px;
+        left: 865px;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 50px; 
+        height: 50px; 
+        border: 1px solid rgb(64, 107, 147);
+    }
+    #righttop {
+        position: absolute;
+        display:block;
+        top: 240px;
+        left: 930px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #rightmid {
+        position: absolute;
+        display:block;
+        top: 290px;
+        left: 930px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #rightbottom {
+        position: absolute;
+        display:block;
+        top: 340px;
+        left: 930px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #downright {
+        position: absolute;
+        display:block;
+        top: 400px;
+        left: 868px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #downmid {
+        position: absolute;
+        display:block;
+        top: 400px;
+        left: 818px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #downleft {
+        position: absolute;
+        display:block;
+        top: 400px;
+        left: 768px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #leftbottom {
+        position: absolute;
+        display:block;
+        top: 340px;
+        left: 690px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #leftmid {
+        position: absolute;
+        display:block;
+        top: 290px;
+        left: 690px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #lefttop {
+        position: absolute;
+        display:block;
+        top: 240px;
+        left: 690px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 60px;
+    }
+    #upleft {
+        position: absolute;
+        display:block;
+        top: 182px;
+        left: 768px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #upmid {
+        position: absolute;
+        display:block;
+        top: 182px;
+        left: 818px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    #upright {
+        position: absolute;
+        display:block;
+        top: 182px;
+        left: 868px;
+        background-color: rgb(30, 78, 154);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        color: blanchedalmond;
+        width: 45px;
+    }
+    }
+
+@media (max-width: 1550px) {
     #zero {
         position: absolute;
         display:block;
