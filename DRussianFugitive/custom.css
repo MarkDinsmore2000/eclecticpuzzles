@@ -287,12 +287,12 @@ h6{
         position: absolute;
         display:block;
         top: 450px;
-        left: 820px;
+        left: 750px;
         color: rgb(0, 5, 2);
         opacity: 80%;
         border-radius: 10%;
         font-weight: bolder;
-        width: 630px;
+        width: 500px;
         height: 200px;
         background-color: white;
     }
@@ -303,12 +303,12 @@ h6{
         position: absolute;
         display:block;
         top: 450px;
-        left: 700px;
+        left: 580px;
         color: rgb(0, 5, 2);
         opacity: 80%;
         border-radius: 10%;
         font-weight: bolder;
-        width: 630px;
+        width: 500px;
         height: 200px;
         background-color: white;
     }
@@ -319,22 +319,54 @@ h6{
     position: absolute;
     display:block;
     top: 450px;
-    left: 590px;
+    left: 530px;
     color: rgb(0, 5, 2);
     opacity: 80%;
     border-radius: 10%;
     font-weight: bolder;
-    width: 630px;
+    width: 500px;
     height: 200px;
     background-color: white;
 }
 }
 
+@media (max-width: 1050px) {
+    #news {
+        position: absolute;
+        display:block;
+        top: 450px;
+        left: 450px;
+        color: rgb(0, 5, 2);
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 450px;
+        height: 200px;
+        background-color: white;
+    }
+    }
+
+    @media (max-width: 850px) {
+        #news {
+            position: absolute;
+            display:block;
+            top: 450px;
+            left: 400px;
+            color: rgb(0, 5, 2);
+            opacity: 80%;
+            border-radius: 10%;
+            font-weight: bolder;
+            width: 400px;
+            height: 200px;
+            background-color: white;
+        }
+        }
+
 #endGame {
     position: absolute;
     display:block;
     top: 100px;
-    left: 350px;
+    left: 250px;
     color: whitesmoke;
     opacity: 90%;
     border-radius: 10%;
@@ -345,11 +377,13 @@ h6{
     
 
 }
+
+@media (min-width: 1000px) {
 #badEnd {
     position: absolute;
     display:block;
     top: 30px;
-    left: 750px;
+    left: 400px;
     color: black;
     opacity: 80%;
     border-radius: 10%;
@@ -359,15 +393,50 @@ h6{
     text-align: center;
     background-color: white;
 }
+}
+
+@media (max-width: 1000px) {
+    #badEnd {
+        position: absolute;
+        display:block;
+        top: 30px;
+        left: 300px;
+        color: black;
+        opacity: 80%;
+        border-radius: 10%;
+        font-weight: bolder;
+        width: 430px;
+        height: 200px;
+        text-align: center;
+        background-color: white;
+    }
+    }
 
 #dayCount {
     text-align: center
 }
+
+@media (min-width: 992px) {
 .center {
     text-align: center;
     margin: auto;
     width: 50%;
+    height: 80px;
     border: 3px solid green;
     background-color: rgb(228, 110, 181);
     padding: 10px;
   }
+}
+
+@media (max-width: 992px) {
+    .center {
+        text-align: center;
+        margin: 1px;
+        width: 70%;
+        border: 3px solid green;
+        background-color: rgb(228, 110, 181);
+        padding: 1px;
+        font-size:x-small;
+      }
+    }
+    

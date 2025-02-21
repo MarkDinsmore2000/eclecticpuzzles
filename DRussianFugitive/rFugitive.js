@@ -360,7 +360,6 @@ for (let j=0; j<=23; j++) {                //// loop through the cities
       cMessage(); 
       }          
   };
-
   panelTwo.onclick = function() {             /// Goto new city
     let dCurPerm = deConvert(curPerm,dim);            /// curPerm starts as prev city (turned to str)
     let dIndex = cityDigitCodes.indexOf(dCurPerm);
@@ -548,7 +547,6 @@ for (let j=0; j<=23; j++) {                //// loop through the cities
         dPerm = pMult(dNewPolPerm,sPolPerm[i],dim);
         sPolPerm[i] = dPerm;
       }
-      console.log("polplaces",sPolPerm);
   };
 
   function scenarioTest(I) {
@@ -556,11 +554,9 @@ for (let j=0; j<=23; j++) {                //// loop through the cities
       let dTestPol = sPolPerm[i];
       let dCurPerm = deConvert(dTestPol,dim);                /// update dIndex
       let dPI = cityDigitCodes.indexOf(dCurPerm);
-      console.log(I,'Input', dPI, 'iPol');
       if (dPI === I) {
         captureFlag++;
         sPFlag = 1;
-        console.log(captureFlag);
       }
     }
     if (sPFlag === 0) {
