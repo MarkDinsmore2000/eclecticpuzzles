@@ -49,6 +49,7 @@
     const dSumIt2 = document.querySelector('#dSumIt2'); 
     const aComment2 = document.querySelector('#aComment2'); 
     const aOthCom2 = document.querySelector('#aOthCom2'); 
+   
 
     
 // pMult is creates the product of newP on curP of Dimension dim and returns it as dP
@@ -188,6 +189,14 @@
 };
 
   function cMessage() { 
+    const MessageOfHope = 
+[['an old woman approches you and says, \"One train freight train a week heads south from Tahskent to Kabul. It is a dangerous journey but it might be your only hope.\"'],
+['A man on the street drops a note telling you to head to Vladivostok and that fishing ships there will stop in the Kuril Islands.'],
+['You overhear a whispered conversation on the street about freight ships from Murmansk taking timber to England.'],
+['You think you overhear someone talking about smugglers in Odessa taking small craft to Romania.'],
+['A blind cripple reads your fortune and tells you to head to Ata and seek out Uyghur traders.'],
+['A young man lets you know that his uncle in Vilnius would welcome you if you ever get north of Minsk.']];
+const sortList = [[0,1,2,3,4,5],[1,2,3,4,5,0],[2,3,4,5,0,1],[3,4,5,0,1,2],[4,5,0,1,2,3],[5,0,1,2,3,4]];
      dC.innerHTML = 'This is day ' + dayCounter + ' trying to escape Communist Russia' ; 
      dCR.innerHTML = 'You trudge on, secret police of the OGPU always on your tail';
      dgSA.innerHTML = 'Scrounging food and shelter, you stowaway on any vehicle that might lead you to freedom';
@@ -203,6 +212,15 @@
      if (29 === dayCounter) {
       dCR.innerHTML = 'You are tired, sick and starving. You begin to wonder if it is worth going on.';
      }
+      if (10 === dayCounter%11 ) {
+        let hopeSort = sortList[hopeSeed];
+        let hopeIndex = hopeSort[hopeCounter]; 
+        dgSA.innerHTML = MessageOfHope[hopeIndex];
+        hopeCounter++;
+        if (hopeCounter === 6) {
+          hopeCounter = 0;
+        }
+      }
      
 };
 function Convert(numstr){                    /// convert 4 digit string example: '1234' to Perm [0,1,2,3]
@@ -270,6 +288,8 @@ let sPolCount = 0;
 let captureFlag = 0;
 let endFlag = 0;
 let sPFlag = 0;
+let hopeSeed = 0;
+let hopeCounter = 0;
 
 
 //    
@@ -287,11 +307,8 @@ styCit.forEach(lCity => {
   lCity.style.outline = "0px";
 });
 paris1.style.outline = "8px solid #0000FF";
+hopeSeed = Math.floor(Math.random()*6);
 
-//Test line
-      const bell = document.querySelector('#lightUp');
-      bell.style.backgroundColor = '#bee1bd';
-// loop through cities to initialize panel
 
 for (let j=0; j<=23; j++) {                //// loop through the cities
   initPerm = cityPerms[j];
