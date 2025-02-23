@@ -139,7 +139,7 @@ upR.onclick =function() {
 }
 
 function display() {
-  let halfDim = (dim/2) - 1;
+  let halfDim = (dim/2);
   for (let i=0; i<halfDim; i++) {
     let indD= curPerm[i]; 
     let dumColor = displayArray[indD];
